@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Cedarville+Cursive|Fredoka+One|Great+Vibes"); /* Using a url */
+.font_1{
+  font-family: 'Cedarville Cursive', cursive;
+  font-family: 'Fredoka One', cursive;
+  font-family: 'Great Vibes', cursive;
+
+  
+}
+
+.font_2{
+  font-family: 'Cedarville Cursive', cursive;
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Fredoka One', cursive;
+}

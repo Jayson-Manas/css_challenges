@@ -1,0 +1,74 @@
+/* General setup */
+/* Remember to always comment*/
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #ccc;
+  /* background: linear-gradient(to bottom,rgba(255, 0, 0, 0.5);) */
+
+}
+
+article {
+  width: 210mm;
+  height: 297mm;
+  margin: 20px auto;
+  position: relative;
+  /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1L6OAsULMeMRM8quccws05c-Cr4fqF_A35R2QikvbD-bY4_61); */
+  background-image:url(thumb-1920-876898.jpg width:100%) no-repeat left top;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0) 20%, rgba(0,0,0,0) 80%, rgba(0,0,0,0.2)),
+              url(thumb-1920-876898.jpg) no-repeat left top,
+              url(thumb-1920-876898.jpg) no-repeat left bottom;
+  background-color: white;
+  border-top: 1mm solid red;
+  border-bottom: 1mm solid red;
+  opacity: .8;
+}
+
+address {
+  position: absolute;
+  bottom: 8mm;
+  right: 20mm;
+
+  color: white;
+}
+
+h1 {
+  position: absolute;
+  top: 12mm;
+  left: 20mm;
+  width: 128px;
+  height: 128px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 44px 0;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  background-image: url(download.jpg);
+  filter: drop-shadow(4px 3px 2px black);
+  border-radius: 100%;
+  box-shadow: 5px 5px 5px 5px black;
+  opacity: .9;
+}
+
+/* Write your CSS below here */
+head{
+  background-position: top;
+
+}
+
+footer{
+
+  background-position: bottom;
+}
+
+
+==============================================================================

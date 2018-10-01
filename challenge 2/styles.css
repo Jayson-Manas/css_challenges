@@ -1,0 +1,142 @@
+/* General setup */
+/* Remember to always comment*/
+
+*{
+  box-sizing: border-box;
+}
+header{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDKaj4l0gpI2GvE33gnpDVGEn_7nTkzXY4qoXtMbg9RODIPTRvsw");
+  background-size: 600px 400px;
+  background-repeat: round;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  background-color: black;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDKaj4l0gpI2GvE33gnpDVGEn_7nTkzXY4qoXtMbg9RODIPTRvsw");
+  background-repeat: round;
+  background-size: 800px 400px;
+  color: white;
+
+
+
+
+}
+
+/* Layout */
+
+
+section {
+  float: left;
+  width: 50%;
+
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: top;
+  width: 20%;
+  color: white;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  padding-bottom:10px;
+
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+h1{
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 1.5px;
+
+}
+
+h2{
+  font-size: 28px;
+  letter-spacing: 1.5px;
+
+}
+
+.ind{
+  text-indent: 20px;
+}
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: solid green;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+     text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+    background-color: hotpink;
+}
+
+power{
+  background-color: lightblue;
+  list-style-type: none;
+  padding: 0
+  margin: 0;
+  height: 100%;
+
+}
+
+li a:hover:not(.active){
+  background-color: orange;
+  color: white;
+}
+
+a{
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+
+}
+.active{
+  background-color: black;
+  color: white;
+  /*makes home link different  */
+}
+
+.underline{
+  text-decoration: underline;
+  color: blue;
+  /*underline custom links  */
+}
+.col{
+  color: red;
+  /* change link color */
+}
